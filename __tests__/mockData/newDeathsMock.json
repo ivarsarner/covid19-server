@@ -1,0 +1,226 @@
+[
+	{
+			"state": "AK",
+			"deaths": 0
+	},
+	{
+			"state": "AL",
+			"deaths": 18
+	},
+	{
+			"state": "AR",
+			"deaths": 0
+	},
+	{
+			"state": "AS",
+			"deaths": 0
+	},
+	{
+			"state": "AZ",
+			"deaths": 19
+	},
+	{
+			"state": "CA",
+			"deaths": 160
+	},
+	{
+			"state": "CO",
+			"deaths": 6
+	},
+	{
+			"state": "CT",
+			"deaths": 93
+	},
+	{
+			"state": "DC",
+			"deaths": 19
+	},
+	{
+			"state": "DE",
+			"deaths": 11
+	},
+	{
+			"state": "FL",
+			"deaths": 53
+	},
+	{
+			"state": "GA",
+			"deaths": 28
+	},
+	{
+			"state": "GU",
+			"deaths": 0
+	},
+	{
+			"state": "HI",
+			"deaths": 0
+	},
+	{
+			"state": "IA",
+			"deaths": 22
+	},
+	{
+			"state": "ID",
+			"deaths": 0
+	},
+	{
+			"state": "IL",
+			"deaths": 165
+	},
+	{
+			"state": "IN",
+			"deaths": 61
+	},
+	{
+			"state": "KS",
+			"deaths": 5
+	},
+	{
+			"state": "KY",
+			"deaths": 10
+	},
+	{
+			"state": "LA",
+			"deaths": 59
+	},
+	{
+			"state": "MA",
+			"deaths": 277
+	},
+	{
+			"state": "MD",
+			"deaths": 84
+	},
+	{
+			"state": "ME",
+			"deaths": 1
+	},
+	{
+			"state": "MI",
+			"deaths": 158
+	},
+	{
+			"state": "MN",
+			"deaths": 44
+	},
+	{
+			"state": "MO",
+			"deaths": 33
+	},
+	{
+			"state": "MP",
+			"deaths": 0
+	},
+	{
+			"state": "MS",
+			"deaths": 21
+	},
+	{
+			"state": "MT",
+			"deaths": 0
+	},
+	{
+			"state": "NC",
+			"deaths": 20
+	},
+	{
+			"state": "ND",
+			"deaths": 2
+	},
+	{
+			"state": "NE",
+			"deaths": 6
+	},
+	{
+			"state": "NH",
+			"deaths": 17
+	},
+	{
+			"state": "NJ",
+			"deaths": 303
+	},
+	{
+			"state": "NM",
+			"deaths": 19
+	},
+	{
+			"state": "NV",
+			"deaths": 13
+	},
+	{
+			"state": "NY",
+			"deaths": 433
+	},
+	{
+			"state": "OH",
+			"deaths": 35
+	},
+	{
+			"state": "OK",
+			"deaths": 6
+	},
+	{
+			"state": "OR",
+			"deaths": 3
+	},
+	{
+			"state": "PA",
+			"deaths": 91
+	},
+	{
+			"state": "PR",
+			"deaths": 4
+	},
+	{
+			"state": "RI",
+			"deaths": 23
+	},
+	{
+			"state": "SC",
+			"deaths": 15
+	},
+	{
+			"state": "SD",
+			"deaths": 3
+	},
+	{
+			"state": "TN",
+			"deaths": 2
+	},
+	{
+			"state": "TX",
+			"deaths": 84
+	},
+	{
+			"state": "UT",
+			"deaths": 6
+	},
+	{
+			"state": "VA",
+			"deaths": 27
+	},
+	{
+			"state": "VI",
+			"deaths": 0
+	},
+	{
+			"state": "VT",
+			"deaths": 0
+	},
+	{
+			"state": "WA",
+			"deaths": 30
+	},
+	{
+			"state": "WI",
+			"deaths": 16
+	},
+	{
+			"state": "WV",
+			"deaths": 3
+	},
+	{
+			"state": "WY",
+			"deaths": 0
+	}
+]

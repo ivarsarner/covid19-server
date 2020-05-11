@@ -1,21 +1,18 @@
 const axios = require('axios');
 const moment = require('moment');
 
-const todayDate = moment().subtract(1, 'days').format('YYYYMMDD');
-const oldDate = moment().subtract(3, 'days').format('YYYYMMDD');
+const dateToday = moment().subtract(1, 'days').format('YYYYMMDD');
+const datePrevious = moment().subtract(3, 'days').format('YYYYMMDD');
 
-const getTodayData = async () => {
-	const { data } = await axios.get(
-		`https://covidtracking.com/api/v1/states/${todayDate}.json`
-	);
-	return data;
-};
-
-const getOldData = async () => {
-	const { data } = await axios.get(
-		`https://covidtracking.com/api/v1/states/${oldDate}.json`
-	);
-	return data;
+const fetchData = async (date) => {
+	try {
+		const { data } = await axios.get(
+			`https://covidtracking.com/api/v1/states/${date}.json`
+		);
+		return data;
+	} catch (error) {
+		console.error(error);
+	}
 };
 
 const calculateNewDeaths = (todayData, oldData) => {
@@ -25,18 +22,20 @@ const calculateNewDeaths = (todayData, oldData) => {
 	}));
 };
 
-const getCovidData = async () => {
-	const todayData = await getTodayData();
-	const oldData = await getOldData();
-	const newDeathsData = calculateNewDeaths(todayData, oldData);
-
-	const covidData = todayData.map((item, index) => ({
+const aggregateData = (todayData, newDeathsData) => {
+	return todayData.map((item, index) => ({
 		state: item.state,
 		hospitalizedCurrently: item.hospitalizedCurrently || 0,
 		deaths: newDeathsData[index].deaths,
 	}));
-
-	return covidData;
 };
 
-module.exports = getCovidData;
+const getCovidData = async () => {
+	const todayData = await fetchData(dateToday);
+	const previousData = await fetchData(datePrevious);
+	const newDeathsData = calculateNewDeaths(todayData, previousData);
+
+	return aggregateData(todayData, newDeathsData);
+};
+
+module.exports = { getCovidData, calculateNewDeaths, aggregateData };

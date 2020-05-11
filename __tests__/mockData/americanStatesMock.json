@@ -1,0 +1,282 @@
+[
+	{
+			"state": "AK",
+			"hospitalizedCurrently": 8,
+			"deaths": 0
+	},
+	{
+			"state": "AL",
+			"hospitalizedCurrently": 0,
+			"deaths": 18
+	},
+	{
+			"state": "AR",
+			"hospitalizedCurrently": 64,
+			"deaths": 0
+	},
+	{
+			"state": "AS",
+			"hospitalizedCurrently": 0,
+			"deaths": 0
+	},
+	{
+			"state": "AZ",
+			"hospitalizedCurrently": 713,
+			"deaths": 19
+	},
+	{
+			"state": "CA",
+			"hospitalizedCurrently": 4555,
+			"deaths": 160
+	},
+	{
+			"state": "CO",
+			"hospitalizedCurrently": 790,
+			"deaths": 6
+	},
+	{
+			"state": "CT",
+			"hospitalizedCurrently": 1242,
+			"deaths": 93
+	},
+	{
+			"state": "DC",
+			"hospitalizedCurrently": 447,
+			"deaths": 19
+	},
+	{
+			"state": "DE",
+			"hospitalizedCurrently": 285,
+			"deaths": 11
+	},
+	{
+			"state": "FL",
+			"hospitalizedCurrently": 0,
+			"deaths": 53
+	},
+	{
+			"state": "GA",
+			"hospitalizedCurrently": 0,
+			"deaths": 28
+	},
+	{
+			"state": "GU",
+			"hospitalizedCurrently": 0,
+			"deaths": 0
+	},
+	{
+			"state": "HI",
+			"hospitalizedCurrently": 0,
+			"deaths": 0
+	},
+	{
+			"state": "IA",
+			"hospitalizedCurrently": 413,
+			"deaths": 22
+	},
+	{
+			"state": "ID",
+			"hospitalizedCurrently": 0,
+			"deaths": 0
+	},
+	{
+			"state": "IL",
+			"hospitalizedCurrently": 4293,
+			"deaths": 165
+	},
+	{
+			"state": "IN",
+			"hospitalizedCurrently": 1328,
+			"deaths": 61
+	},
+	{
+			"state": "KS",
+			"hospitalizedCurrently": 0,
+			"deaths": 5
+	},
+	{
+			"state": "KY",
+			"hospitalizedCurrently": 394,
+			"deaths": 10
+	},
+	{
+			"state": "LA",
+			"hospitalizedCurrently": 1324,
+			"deaths": 59
+	},
+	{
+			"state": "MA",
+			"hospitalizedCurrently": 3128,
+			"deaths": 277
+	},
+	{
+			"state": "MD",
+			"hospitalizedCurrently": 1640,
+			"deaths": 84
+	},
+	{
+			"state": "ME",
+			"hospitalizedCurrently": 36,
+			"deaths": 1
+	},
+	{
+			"state": "MI",
+			"hospitalizedCurrently": 1437,
+			"deaths": 158
+	},
+	{
+			"state": "MN",
+			"hospitalizedCurrently": 434,
+			"deaths": 44
+	},
+	{
+			"state": "MO",
+			"hospitalizedCurrently": 824,
+			"deaths": 33
+	},
+	{
+			"state": "MP",
+			"hospitalizedCurrently": 0,
+			"deaths": 0
+	},
+	{
+			"state": "MS",
+			"hospitalizedCurrently": 645,
+			"deaths": 21
+	},
+	{
+			"state": "MT",
+			"hospitalizedCurrently": 4,
+			"deaths": 0
+	},
+	{
+			"state": "NC",
+			"hospitalizedCurrently": 442,
+			"deaths": 20
+	},
+	{
+			"state": "ND",
+			"hospitalizedCurrently": 29,
+			"deaths": 2
+	},
+	{
+			"state": "NE",
+			"hospitalizedCurrently": 0,
+			"deaths": 6
+	},
+	{
+			"state": "NH",
+			"hospitalizedCurrently": 107,
+			"deaths": 17
+	},
+	{
+			"state": "NJ",
+			"hospitalizedCurrently": 4308,
+			"deaths": 303
+	},
+	{
+			"state": "NM",
+			"hospitalizedCurrently": 198,
+			"deaths": 19
+	},
+	{
+			"state": "NV",
+			"hospitalizedCurrently": 444,
+			"deaths": 13
+	},
+	{
+			"state": "NY",
+			"hospitalizedCurrently": 7262,
+			"deaths": 433
+	},
+	{
+			"state": "OH",
+			"hospitalizedCurrently": 962,
+			"deaths": 35
+	},
+	{
+			"state": "OK",
+			"hospitalizedCurrently": 177,
+			"deaths": 6
+	},
+	{
+			"state": "OR",
+			"hospitalizedCurrently": 164,
+			"deaths": 3
+	},
+	{
+			"state": "PA",
+			"hospitalizedCurrently": 2230,
+			"deaths": 91
+	},
+	{
+			"state": "PR",
+			"hospitalizedCurrently": 0,
+			"deaths": 4
+	},
+	{
+			"state": "RI",
+			"hospitalizedCurrently": 283,
+			"deaths": 23
+	},
+	{
+			"state": "SC",
+			"hospitalizedCurrently": 0,
+			"deaths": 15
+	},
+	{
+			"state": "SD",
+			"hospitalizedCurrently": 77,
+			"deaths": 3
+	},
+	{
+			"state": "TN",
+			"hospitalizedCurrently": 0,
+			"deaths": 2
+	},
+	{
+			"state": "TX",
+			"hospitalizedCurrently": 1626,
+			"deaths": 84
+	},
+	{
+			"state": "UT",
+			"hospitalizedCurrently": 144,
+			"deaths": 6
+	},
+	{
+			"state": "VA",
+			"hospitalizedCurrently": 1555,
+			"deaths": 27
+	},
+	{
+			"state": "VI",
+			"hospitalizedCurrently": 0,
+			"deaths": 0
+	},
+	{
+			"state": "VT",
+			"hospitalizedCurrently": 21,
+			"deaths": 0
+	},
+	{
+			"state": "WA",
+			"hospitalizedCurrently": 335,
+			"deaths": 30
+	},
+	{
+			"state": "WI",
+			"hospitalizedCurrently": 514,
+			"deaths": 16
+	},
+	{
+			"state": "WV",
+			"hospitalizedCurrently": 49,
+			"deaths": 3
+	},
+	{
+			"state": "WY",
+			"hospitalizedCurrently": 12,
+			"deaths": 0
+	}
+]
