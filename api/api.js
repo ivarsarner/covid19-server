@@ -1,8 +1,8 @@
 const axios = require('axios');
 const moment = require('moment');
 
-const todayDate = moment().format('YYYYMMDD') - 1;
-const oldDate = todayDate - 2;
+const todayDate = moment().subtract(1, 'days').format('YYYYMMDD');
+const oldDate = moment().subtract(3, 'days').format('YYYYMMDD');
 
 const getTodayData = async () => {
 	const { data } = await axios.get(
@@ -19,21 +19,24 @@ const getOldData = async () => {
 };
 
 const calculateNewDeaths = (todayData, oldData) => {
-	const newDeaths = todayData.map((state, index) => ({
-		state: state.state,
-		deaths: state.death - oldData[index].death,
-		/* 		deaths:
-			state.death -
-			oldData.find((oldState) => oldState.state === state.state).death, */
+	return todayData.map((item, index) => ({
+		state: item.state,
+		deaths: item.death - oldData[index].death,
 	}));
-	return newDeaths;
 };
 
-const getNewCovidDeaths = async () => {
+const getCovidData = async () => {
 	const todayData = await getTodayData();
 	const oldData = await getOldData();
-	const newDeaths = calculateNewDeaths(todayData, oldData);
-	return newDeaths;
+	const newDeathsData = calculateNewDeaths(todayData, oldData);
+
+	const covidData = todayData.map((item, index) => ({
+		state: item.state,
+		hospitalizedCurrently: item.hospitalizedCurrently || 0,
+		deaths: newDeathsData[index].deaths,
+	}));
+
+	return covidData;
 };
 
-module.exports = getNewCovidDeaths;
+module.exports = getCovidData;

@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const getNewCovidDeaths = require('../api/api');
+const getCovidData = require('../api/api');
 
-router.get('/', async (req, res) => {
-	const newCovidDeaths = await getNewCovidDeaths();
-	res.json(newCovidDeaths);
+router.get('/covid', async (req, res) => {
+	const covidData = await getCovidData();
+	res.json(covidData);
 });
 
 module.exports = router;
