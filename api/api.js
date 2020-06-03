@@ -1,8 +1,8 @@
 const axios = require('axios');
 const moment = require('moment');
 
-const dateToday = moment().subtract(1, 'days').format('YYYYMMDD');
-const datePrevious = moment().subtract(3, 'days').format('YYYYMMDD');
+const dateToday = moment().subtract(2, 'days').format('YYYYMMDD');
+const datePrevious = moment().subtract(4, 'days').format('YYYYMMDD');
 
 const fetchData = async (date) => {
 	try {
