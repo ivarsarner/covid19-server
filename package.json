@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "jest",
-    "watch": "jest --watch"
+    "watch": "jest --watch",
+    "dev": "nodemon ./bin/www"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -28,5 +29,8 @@
     "testPathIgnorePatterns": [
       "node_modules/"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
